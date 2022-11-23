@@ -1,0 +1,587 @@
+body {
+    margin: 0 auto;
+}
+.body{
+    margin-right: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* width: 1500px; */
+
+}
+
+/* .img_first_flower img{
+    width: 50%;
+} */
+
+.container {
+    margin: 10px 25px;
+}
+
+.podcontainer {
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 2%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.header_glass {
+
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 5px 12px;
+}
+
+.header_cart {
+    border: 1px solid white;
+    font-weight: 500px;
+    padding: 1px 5px;
+}
+
+.header_sing_up {
+    text-decoration: none;
+    color: #156963;
+    font-size: 20px;
+    font-weight: 500px;
+    height: 3%;
+    width: 85;
+    padding: 8px 30px;
+    background: white;
+}
+
+.header_sing_up:hover {
+    border: 1px solid  #156963;
+}
+
+.header_sing_in {
+    border: 1px solid  #156963;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    height: 3%;
+    width: 85;
+    padding: 8px 30px;
+    background:  #156963;
+}
+
+.header_text{
+
+    display: flex;
+    flex-direction: column;
+    margin: 140px 0px;
+    margin-left: 5%;
+    width: 37em;
+}
+
+.main_text{
+
+    font-family: 'Montserrat';
+    font-style: normal;/*стиль шрифта(жирный, наклонный и тд)*/
+    font-weight: 500;/*насыщенность шрифта*/
+    font-size: 5.3em;/*размер шрифта*/
+    line-height: 1em; /*междустрочный итервал*/
+    color: #156963;
+    padding: 15px 2px;
+    margin: 0px 0px; 
+}    
+
+.subtext{
+
+    width: 500px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.45em;
+    line-height: 1.4em;
+    color: #2C1500;
+    opacity: 0.8;/*прозрачность заднего фона*/
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 0px 5px;
+}
+
+
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 96px;
+    margin-top: 96px;
+    padding: 48px 0px;
+    margin-bottom: 48px;
+    /* flex-wrap: wrap; */
+    /*border: 1px solid purple;*/
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #E0E0E0;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.welcome_description {
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.welcome__img img {
+
+    width: 4.5em;
+    margin: 2em 1em;
+    padding: 0px 10px;
+    margin-bottom: 0em;
+    /*border: 1px solid #bcab49;*/
+}
+
+.zagolovok {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #156963;   
+    margin: 0em 0em;
+    padding: 0.4em 0em;
+    line-height: 1.5em;
+    margin-bottom: 0em;
+    /* height: 4em; */
+    /*border: 1px solid #5e49bc; */
+}
+
+.opisanie {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    color: black;
+    margin: auto 0.7em ;
+    margin-bottom: 1.2em;
+    /*border: 1px solid #fff200;*/
+}
+/*-------------Featured Plants---------------*/
+
+.products {
+    margin-bottom: 58px;
+}
+
+.products__title {
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    text-align: center;
+    line-height: 1em;
+
+}
+
+.products__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.item__img img{
+    width: 17em;
+    margin-bottom: 16px;
+}
+
+.item__info {
+    margin-bottom: 16px;
+}
+
+.item__name {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.item__price {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center; 
+    color: black;
+}
+
+
+.more_shopping {
+    margin-bottom: 5.5em;
+}
+
+.item_block1 {
+    
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    margin-bottom: 5.5em;
+    justify-content: center;
+    width: 100%;
+}
+
+.item_relaxText {
+    margin: 0 auto;
+    width: 50%;
+    position:relative;
+    padding-bottom:50px;
+    margin-right: 1.5em;
+}
+
+.words {
+    width: 100%;
+    padding-left: 32px;
+    display: block;
+    justify-content: center;
+}
+
+.subtitle {
+    width: 90%;
+    /* height: 2.5em; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 1.2em;
+    margin: 0.5em 0em;
+}
+
+.subtext2{
+
+    width: 90%;
+    /* height: 10em; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: #2C1500;
+    opacity: 0.8;/*прозрачность заднего фона*/
+}
+.img_mirror img{
+    width: 100%;
+}
+.img_mirror{
+    position:absolute;
+    bottom:0;
+}
+
+
+.img_flower_wall_adapt {
+    width: 50%;
+}
+.img_flower_wall{
+    width: 100%;
+}
+
+.item_block2 {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F4F6;
+    justify-content: center;
+    /* height: 25em; */
+    width: 100%;
+}
+
+
+.text-button {
+
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 48px 80px;
+    justify-content: center;
+    /* padding-bottom: 160px; */
+    /*border: 1px solid  #241569;*/
+}
+
+.subtitle1 {
+    width: 100%; 
+    /* height: 2.5em;  */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.3em;
+    line-height: 1.2em;
+    margin: 0.5em 0em;
+    /* border: 1px solid  #241569; */
+}
+
+.btn_visit_shop {
+
+    border: 1px solid  #156963;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    height: 1em;
+    width: 5em;
+    padding: 8px 30px;
+    background:  #156963;
+    text-align: center; 
+}
+
+.img_hand_plant img {  
+    width: 100%; 
+}
+
+/*----------------FOOTER---------------*/
+
+.item_footer {
+
+    justify-content: center;
+    border-top: 1px solid #26664b;
+}
+
+.footer_container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4em auto;
+}
+
+.footer_parts {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0em 2.5em;
+}
+
+.header_plantku {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    letter-spacing: 0.05em; /*расстояние между символами(будками)*/
+    text-transform: uppercase;/*Все символы текста становятся прописными (верхний регистр)*/
+    color: #156963;
+}
+
+
+.main_name {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.3em;
+    line-height: 1em;
+    margin: 1em 0em;
+    color: rgb(35, 35, 35);
+}
+
+.item_Plantku_dscrptn {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #4F4F4F;
+}
+
+.footer_name {
+   
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+.item_email {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    border: 1px solid #b3b3b3;
+    color: #b5b5b5;
+    border-radius: 2px;
+    width: 17em;
+    padding: 0.2em 0.8em;
+}
+
+.item_btn_Submit {
+
+    border: 1px solid  #156963;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+    width: 3.5em;
+    margin-top: 1.5em;
+    padding: 0.5em 0.5em;
+    border-radius: 2px;
+    background: #156963;
+}
+
+
+@media (max-width: 1410px) {
+
+    .products__items {
+        justify-content: center;
+    }
+
+    .products__item {
+        margin-right: 15px;
+    }
+
+    .img_flower_wall_adapt{
+        margin: 0 auto;
+    }
+    .img_flower_wall{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .header-container{
+        flex-direction: column;
+    }
+
+    .main_text{
+        font-size: 7em;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5em;
+    }
+
+    .img_container{
+        margin-right: 3em;
+    }
+    .subtext{
+        width: 100%;
+        text-align: center;
+    }
+    .podcontainer{
+        padding-top: 2em;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header_text{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin:auto
+    }
+    
+    .welcome{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .item_block1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .item_block2 {
+        height: auto;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .words{
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .subtitle1 {
+        width: auto;
+        height: auto;
+        font-size: 3em;
+        margin-top: 1em;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .subtext2{
+        text-align: center;
+    }
+    .img_mirror{
+        display: none;
+    }
+    .item_relaxText{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img_flower_wall_adapt {
+        width: 100%;
+        margin: 0 2em;
+        justify-content: center;
+    }
+
+    .footer_container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 170px;
+
+    }
+
+    .footer_parts {
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+    .item_block2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subtitle1 {
+        font-size: 4.3em;
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 768px) {}
+
